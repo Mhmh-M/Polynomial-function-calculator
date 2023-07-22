@@ -63,7 +63,7 @@ input[type="button"] {
 }
 
 input[type="button"]:checked {
-    background-color: #03A9F4;
+    background-color: #ebf3f7;
     color: white;
 }
 
@@ -174,4 +174,24 @@ input[type="checkbox"]:checked:after {
     transform: translateY(-50%);
     border: 15px solid;
     border-color: transparent transparent #03a9f4 transparent;
+}
+
+@media(max-width: 550px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .all {
+        flex-direction: column;
+    }
+
+    input[type="button"] {
+        margin-top: 15px;
+        padding: 10px 35px;
+        font-size: 25px;
+    }
+
+    .superSc {
+        min-width: 380px;
+    }
 }
